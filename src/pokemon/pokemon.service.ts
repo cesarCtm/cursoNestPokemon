@@ -19,7 +19,7 @@ export class PokemonService {
   ){
     // console.log("CTM",process.env.DEFAULT_LIMIT);
 
-    this.defaultLimit = this.configService.get<number>('DEFAULT_LIMIT');
+    this.defaultLimit = this.configService.get<number>('default_limit');
 
   }
 
